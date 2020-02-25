@@ -1,0 +1,14 @@
+server:
+  port: 8050
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    region:
+      auto: false
+      static: eu-west-1
+    sqs:
+      url: https://eu-west-1.queue.amazonaws.com/578290392216/aws-test-sqs
+
+
